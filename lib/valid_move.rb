@@ -1,7 +1,7 @@
 # code your #valid_move? method here
 =begin
-You must move to a position within the tic-tac-toe board.
-=end
+1. You must move to a position within the tic-tac-toe board.
+
 The position must be vacant, not currently taken by a player.
 def valid_move?
 
