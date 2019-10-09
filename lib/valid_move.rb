@@ -1,10 +1,13 @@
 # code your #valid_move? method here
 # 1. You must move to a position within the tic-tac-toe board.
 # 2. The position must be vacant, not currently taken by a player.
-def valid_move?(position)
-  # firt check if position taken
-  if (position_taken?(board, i) == true) ||
-  
+def valid_move?(board, i)
+  # check if position taken or 'out-of-bounds'
+  if (position_taken?(board, i) == true) || (i > 8) || (i < 0)
+    return false
+  else 
+    return true
+  end  
 end  
 
 
